@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.egg-loader {
+  animation: rubberBand 2200ms infinite;
+  margin: 100px auto;
+  position: absolute;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  left: 50%;
+  top: 30vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 3rem;
+}
+
+.footer .love {
+  color: #db3d44;
+  display: inline-flex;
+  vertical-align: middle;
+}
