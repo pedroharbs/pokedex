@@ -6,9 +6,9 @@ const Loader = ({ size = 150 }) => (
     className="egg-loader"
     style={{
       height: size,
-      marginLeft: -1 * (size / 2),
-      marginTop: -1 * (size / 2),
-      width: size,
+      // marginLeft: -1 * (size / 2),
+      // marginTop: -1 * (size / 2),
+      // width: size,
     }}
   >
     <svg

@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from 'react'
+import Paper from '@material-ui/core/Paper'
+import Grid from '@material-ui/core/Grid'
+
 import { IPokemonList, IPagination } from '../../interfaces/Interfaces'
 import { GetPokemonList } from '../../services/pokemonService'
-import Loader from '../Loader/Loader'
+import PokemonCard from './PokemonCard'
+import { useStyles } from './Styles'
 
 const PokemonList: React.FC = () => {
+  const classes = useStyles()
+
   const [limitPreview, setLimitPreview] = useState(10)
   const [offsetPreview, setOffsetPreview] = useState(0)
   const [limitNext, setLimitNext] = useState(10)
   const [offsetNext, setOffsetNext] = useState(0)
   const [pagination, setPagination] = useState<IPagination>({
-    limit: 10,
+    limit: 12,
     offset: 0,
   })
   const [data, setData] = useState<IPokemonList | undefined>({
@@ -40,15 +46,19 @@ const PokemonList: React.FC = () => {
     })
   }, [limitNext, limitPreview, offsetNext, offsetPreview, pagination])
 
-  if (!data) {
-    return Loader({ size: 150 })
-  }
-
   return (
-    <div>
-      {data.results.map((pokemon: any, idx: any) => (
-        <h1 key={idx}>{pokemon.name}</h1>
-      ))}
+    <div className={classes.root}>
+      <Grid container spacing={2}>
+        <React.Fragment>
+          {data?.results.map((pokemon: any, idx: any) => (
+            <Grid item xs={4}>
+              <Paper className={classes.paper}>
+                <PokemonCard key={idx} pokemon={pokemon} />
+              </Paper>
+            </Grid>
+          ))}
+        </React.Fragment>
+      </Grid>
     </div>
   )
 }
