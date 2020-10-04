@@ -1,44 +1,99 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="left">
+   <img src=".github/images/logo.webp" width="200"/>
+</p>
 
-## Available Scripts
+# Pokedex
 
-In the project directory, you can run:
+> A simple pokedex made with ReactJS and https://pokeapi.co for learning and entertainment purposes.
 
-### `yarn start`
+[![Author](https://img.shields.io/badge/author-Harbsprog-DB3D44?style=flat-square)](https://github.com/harbsprog)
+[![Languages](https://img.shields.io/github/languages/count/Harbsprog/pokedex?color=%DB3D44&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/Harbsprog/pokedex?color=DB3D44&style=flat-square)](https://github.com/Harbsprog/pokedex/stargazers)
+[![Forks](https://img.shields.io/github/forks/Harbsprog/pokedex?color=%DB3D44&style=flat-square)](https://github.com/Harbsprog/pokedex/network/members)
+[![Contributors](https://img.shields.io/github/contributors/Harbsprog/pokedex?color=DB3D44&style=flat-square)](https://github.com/Harbsprog/pokedex/graphs/contributors)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+   <img src=".github/images/pokedex-1.png" width="500"/>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# :pushpin: Table of Contents
 
-### `yarn test`
+- [Features](#rocket-features)
+- [Goals](#dart-goals)
+- [Installation](#construction_worker-installation)
+- [Getting Started](#runner-getting-started)
+- [FAQ](#postbox-faq)
+- [Found a bug? Missing a specific feature?](#bug-issues)
+- [Contributing](#tada-contributing)
+- [License](#closed_book-license)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :rocket: Features
 
-### `yarn build`
+- [ ] Explore pokemons
+- [ ] Search pokemons by name
+- [ ] See the abilities and damage level of pokemons in the details page
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# :dart: Next Improvements
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+These are the next improvements a are implemented:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] Search pokemons.
+- [ ] Pokemons details page.
+- [ ] Use Recoil.JS.
+- [ ] Use Vercel SWR.
 
-### `yarn eject`
+# :construction_worker: Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**You need to install [Node.js](https://pt-br.reactjs.org/) and [Yarn](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+  git clone https://github.com/harbsprog/pokedex.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+  git clone git@github.com:harbsprog/pokedex.git
+```
 
-## Learn More
+**Install dependencies**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+  yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# :runner: Getting Started
+
+Run the following command in order to start the application.
+
+```
+  yarn start
+```
+
+# :postbox: F.A.Q
+
+**Question:** What are the tecnologies used in this project?
+
+**Answer:** The tecnologies used in this project are [Material-UI](https://material-ui.com/components/drawers/) + [ReactJS](https://reactjs.org/) and another amazing libs.
+
+# :bug: Issues
+
+Feel free to file a new issue with a respective title and description on the Pokedex repository. If you already found a solution to your problem, I would love to review your pull request!
+
+# :tada: Contributing
+
+Check out the [contributing](https://github.com/harbsprog/pokedex/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+
+# :white_flag: Open API
+
+<img src="https://user-images.githubusercontent.com/24237865/83422649-d1b1d980-a464-11ea-8c91-a24fdf89cd6b.png" align="right" width="21%"/>
+
+Pokedex using the [PokeAPI](https://pokeapi.co/) for constructing RESTful API.<br>
+PokeAPI provides a RESTful API interface to highly detailed objects built from thousands of lines of data related to Pokémon.
+
+# :closed_book: License
+
+Released in 2020.
+This project is licensed under the [MIT license](https://github.com/harbsprog/pokedex/master/LICENSE).
+
+Made with love in Brazil by [Harbsprog](https://github.com/harbsprog) 🚀
