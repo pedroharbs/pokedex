@@ -36,7 +36,7 @@
 # :dart: Next Improvements
 
 These are the next improvements a are implemented:
-
+- [ ] Pagination.
 - [ ] Search pokemons.
 - [ ] Pokemons details page.
 - [ ] Use Recoil.JS.
