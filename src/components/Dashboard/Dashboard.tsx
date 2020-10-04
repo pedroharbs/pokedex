@@ -19,7 +19,7 @@ import HomeIcon from '@material-ui/icons/Home'
 import InfoIcon from '@material-ui/icons/Info'
 import Logo from '../Logo/Logo'
 import About from '../About/About'
-import Pokemons from '../Pokemons/Pokemons'
+import PokemonList from '../Pokemons/PokemonList'
 
 const drawerWidth = 240
 
@@ -169,7 +169,7 @@ function Dashboard() {
         <main className={classes.content}>
           <div className={classes.toolbar} />
           <Switch>
-            <Route path="/" exact render={() => <Pokemons />} />
+            <Route path="/" exact render={() => <PokemonList />} />
             <Route path="/about" render={() => <About />} />
           </Switch>
         </main>
