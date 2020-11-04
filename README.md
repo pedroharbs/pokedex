@@ -6,11 +6,11 @@
 
 > A simple pokedex made with ReactJS and https://pokeapi.co for learning and entertainment purposes.
 
-[![Author](https://img.shields.io/badge/author-Harbsprog-DB3D44?style=flat-square)](https://github.com/harbsprog)
-[![Languages](https://img.shields.io/github/languages/count/Harbsprog/pokedex?color=%DB3D44&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/Harbsprog/pokedex?color=DB3D44&style=flat-square)](https://github.com/Harbsprog/pokedex/stargazers)
-[![Forks](https://img.shields.io/github/forks/Harbsprog/pokedex?color=%DB3D44&style=flat-square)](https://github.com/Harbsprog/pokedex/network/members)
-[![Contributors](https://img.shields.io/github/contributors/Harbsprog/pokedex?color=DB3D44&style=flat-square)](https://github.com/Harbsprog/pokedex/graphs/contributors)
+[![Author](https://img.shields.io/badge/author-Barbadev-DB3D44?style=flat-square)](https://github.com/devbarba)
+[![Languages](https://img.shields.io/github/languages/count/DevBarba/pokedex?color=%DB3D44&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/DevBarba/pokedex?color=DB3D44&style=flat-square)](https://github.com/DevBarba/pokedex/stargazers)
+[![Forks](https://img.shields.io/github/forks/DevBarba/pokedex?color=%DB3D44&style=flat-square)](https://github.com/DevBarba/pokedex/network/members)
+[![Contributors](https://img.shields.io/github/contributors/DevBarba/pokedex?color=DB3D44&style=flat-square)](https://github.com/DevBarba/pokedex/graphs/contributors)
 
 <p align="center">
    <img src=".github/images/pokedex-1.png" width="500"/>
@@ -19,7 +19,6 @@
 # :pushpin: Table of Contents
 
 - [Features](#rocket-features)
-- [Goals](#dart-goals)
 - [Installation](#construction_worker-installation)
 - [Getting Started](#runner-getting-started)
 - [FAQ](#postbox-faq)
@@ -96,4 +95,4 @@ PokeAPI provides a RESTful API interface to highly detailed objects built from t
 Released in 2020.
 This project is licensed under the [MIT license](https://github.com/harbsprog/pokedex/master/LICENSE).
 
-Made with love in Brazil by [Harbsprog](https://github.com/harbsprog) 🚀
+Made with love in Brazil by [BarbaDev](https://github.com/devbarba) 🚀
